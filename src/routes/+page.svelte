@@ -37,10 +37,10 @@
 <div class="py-10 space-y-10">
 	<div class="md:-space-y-[8vh] -space-y-[5vh] w-full">
 		<Navbar />
-		<div class=" grid justify-items-center">
+		<div class=" grid justify-items-center group">
 			{#key photos[keycount]}
-				<img src={photos[keycount]} class="md:w-1/2 w-3/4 bw z-0  md:h-[50vh] h-[50vh] object-cover fadein" alt="">
-				<p class="md:w-1/2 w-3/4 yg fadein md:text-md text-xs">{texts[keycount]}</p>
+				<img src={photos[keycount]} class="md:w-1/2 w-3/4 bw z-0 md:group-hover:w-3/4 group-hover:w-full  md:h-[50vh] h-[50vh] object-cover fadein transition-all" alt="">
+				<p class="md:w-1/2 w-3/4 yg fadein md:text-md text-xs md:group-hover:w-3/4 group-hover:w-full transition-all">{texts[keycount]}</p>
 
 			{/key}
 		</div>

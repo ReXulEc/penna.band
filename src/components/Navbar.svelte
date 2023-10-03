@@ -6,10 +6,10 @@
 <div class="w-full md:space-y-10 space-y-5">
     <div class="flex justify-center">
         <div class="md:w-6/12 w-3/4 flex justify-between yg">
-            <p>Home</p>
-            <p>Albums</p>
-            <p>Live</p>
-            <p>Merch</p>
+            <a>Home</a>
+            <a>Albums</a>
+            <a>Live</a>
+            <a>Merch</a>
         </div>
     </div>
     
