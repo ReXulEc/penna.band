@@ -7,9 +7,9 @@
     <div class="flex justify-center">
         <div class="md:w-6/12 w-5/6 flex justify-between volkorn text-lg font-semibold">
             <a href="">Home</a>
-            <a href="albums">Albums</a>
-            <a>Live</a>
-            <a>Merch</a>
+            <a href="">Albums</a>
+            <a href="">Live</a>
+            <a href="">Merch</a>
         </div>
     </div>
     
